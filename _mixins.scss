@@ -3,9 +3,3 @@
     justify-content: center;
     align-items: center;
 }
-
-@mixin card {
-    border-radius: 10px;
-    padding: $spacing;
-    box-shadow: 0 4px 10px rgba(0,0,0,.15);
-}
