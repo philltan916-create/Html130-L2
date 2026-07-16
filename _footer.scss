@@ -1,0 +1,12 @@
+.footer{
+    grid-area:footer;
+    background:$footer;
+
+    @include center;
+
+    &__title{
+        color:white;
+        font-size:2rem;
+        font-weight:400;
+    }
+}
