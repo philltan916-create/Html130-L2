@@ -1,46 +1,12 @@
-.nav{
-    grid-area:nav;
-    background:#ddd;
-
-    &__list{
-        list-style:none;
-        padding:0;
-    }
-
-    &__item{
-        padding:15px;
-    }
-}
-
 .main{
     grid-area:main;
-    padding:$spacing;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.sidebar{
-    grid-area:sidebar;
-    background:#eee;
+    background:$main;
 
     @include center;
-}
-
-.card{
-
-    @include card;
-
-    display:flex;
-    flex-direction:column;
-    gap:10px;
 
     &__title{
-        color:$primary;
-    }
-
-    &__text{
-        color:$text;
+        color:white;
+        font-size:2rem;
+        font-weight:400;
     }
 }
