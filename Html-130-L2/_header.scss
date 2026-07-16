@@ -1,0 +1,12 @@
+.header{
+    grid-area:header;
+
+    background:$primary;
+    color:white;
+
+    @include center;
+
+    &__title{
+        font-size:2rem;
+    }
+}
