@@ -2,16 +2,5 @@
 @import "mixins";
 @import "layout";
 @import "header";
-@import "nav";
-@import "sidebar";
 @import "main";
 @import "footer";
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:Arial, sans-serif;
-}
